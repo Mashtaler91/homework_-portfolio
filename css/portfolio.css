@@ -1,0 +1,53 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --title-hero: #FFFFFF;
+    --hover-color: #2196F3;
+    --button-color: #F5F4FA;
+    --button-color-hover: #2196F3;
+}
+
+/* основной цвет текста #757575*/
+/*цвет шрифта в шапке #212121*/
+/*цвет шрифта героя #FFFFFF*/
+/* цвет hover #2196F3*/
+
+.page {
+    background-color: var(--title-hero);
+    color: var(--primary-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/*стилизация site-nav */
+.site-nav a {
+    color: var(--title-text-color);
+} 
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-color);
+}
+
+.contact .cont-link:hover,
+.contact .cont-link:focus {
+    color: var(--hover-color);
+}
+   
+/*цвет на заголовки и подзаголовки*/
+.section-tittle {
+    color: var(--title-text-color);
+}
+
+/*оформление кнопки*/
+.button {
+    color: var(--title-text-color);
+    background-color: var(--button-color);
+}
+
+.button:hover {
+    color: var(--title-hero);
+    background-color: var(--button-color-hover);
+}

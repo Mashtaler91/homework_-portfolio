@@ -1,0 +1,132 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --title-hero: #FFFFFF;
+    --hover-color: #2196F3;
+}
+
+/* основной цвет текста #757575*/
+/*цвет шрифта в шапке #212121*/
+/*цвет шрифта героя #FFFFFF*/
+/* цвет hover #2196F3*/
+
+.page {
+    background-color: var(--title-hero);
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+/*стилизация site-nav */
+.site-nav a {
+    color: var(--title-text-color);
+    
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+} 
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-color);
+}
+
+.contact .cont-link:hover,
+.contact .cont-link:focus {
+    color: var(--hover-color);
+}
+.cntact {
+    
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+}
+   
+/*цвет основного заголовка*/
+.hero {
+    color: var(--title-hero);
+    background-color: tomato;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+/* or 136% */
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+/*оформление кнопки*/
+.button-hero {
+    color: var(--title-hero);
+    background-color: var(--hover-color);
+    text-decoration: none;
+}
+
+/*оформление заголовки и подзаголовки*/
+.section-tittle-three {
+    color: var(--title-text-color);
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+}
+
+.section-tittle-two {
+    color: var(--title-text-color);
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.section-tittle {
+    color: var(--title-text-color);
+
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+
+/*оформление текста*/
+.text {
+    
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.team {
+    
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.address {
+color: var(--title-hero);
+background-color: #2196F3;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+
+letter-spacing: 0.03em;
+}
+
+.address .contfooter {
+    color: rgba(255, 255, 255, 0.6);
+}
